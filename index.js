@@ -5,7 +5,7 @@ const cookies = require('browser-cookies')
 class Leo {
   constructor (options) {
     const defaultOptions = {
-      apiBase: 'http://localhost:8082/leopixel'
+      apiBase: 'https://link.getvase.com/leopixel'
     }
     this.options = Object.assign({}, defaultOptions, options)
 
